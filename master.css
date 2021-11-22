@@ -1,34 +1,61 @@
 body {
   background-color: #BABABA;
   background-image: url(bg.png);
+  margin: 0px;
   font-family: 'PT Sans Caption', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 0%;
-  margin-bottom: 0%;
 }
-div {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 15px;
-  background-color: #BABABA;
+nav {
+  background-color: #C8C8DB;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #b00b69;
-  border-width: 10px;
+.navbox {
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 0px;
 }
-button {
-  color:#ffffff;
-  background-color:#b00b69;
+.classnyi_zagolovok {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.navtons {
+  padding-top: 2px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.navtons > button {
+  margin: 3px;
+  margin-bottom: 5px;
+  color: black;
+  background-color: #B2B2D4;
   font-weight: bold;
   text-decoration: none;
   border:none;
-  padding:10px 28px;
+  height: 25px;
+  width: 110px;
+  text-align: center;
+}
+button:hover {
+  background-color: #9F9FD4;
+}
+.main {
+  background-color: #BABABA;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 15px;
+  padding-top: 5px;
 }
 a:link {
   color: inherit;
@@ -46,10 +73,16 @@ a:hover {
   color: inherit;
   text-decoration: none;
 }
-.classnyi_zagolovok {
-  font-style: italic;
-  text-decoration: underline wavy #b00b69;
+.dots {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #b00b69;
+  border-width: 10px;
+  width: 40px;
+  margin-top: 10px;
 }
-#conf {
-  color: #5662af;
+.rowbox {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }

@@ -2,87 +2,99 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About me</title>
+    <title>About me 2.0</title>
     <link rel="stylesheet" href="master.css"
     href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap">
+    <link rel="icon" href="icon.png">
     <style type="text/css" media="all">
       h3 {
-        font-family: monospace;
-        font-size: 160%;
+        margin-top: 0px;
+        font-style: italic;
+        text-decoration: underline wavy #b00b69;
       }
     </style>
   </head>
   <body>
-    <div>
-    <table cellpadding="0px" border="0">
-      <tr>
-		    <td rowspan="3"><img src="pic0.jpg" width="250px" height="250px"></td>
-        <td colspan="6" width="1000px" height="60" align="center"
-          style="font-size:22px"><b>Олександр Макаревич Ігорович<br>
-          Студент НАУ ФККПІ групи БІ-242</b> <hr width="40px"/>
-        </td>
-
-        <tr style="vertical-align:5%">
-          <td align="center"> <button><a href="index.html"> Головна </a></button>
-           <button style="padding:10px" 25px><a href="bio.html">Автобіографія</a></button>
-           <button><a href="gallery.html"> Галерея</a> </button>
-           <button><a href="contacts.html"> Контакти</a> </button></td>
-
-        </tr>
-      </tr>
-    </table>
-    <h3 class="classnyi_zagolovok">Про себе:</h3>
-    <ul marker="square">
-      <li>Навчається на бюджеті;</li>
-      <li>Закінчив 11 классів зі срібною медаллю;</li>
-      <li>Закінчив на відмінно музичну школу за спеціальністю "скрипка";</li>
-      <li>Взагалі хотів навчатись за спеціальністю "Архітектура";</li>
-      <li>Схильний до творчості;</li>
-      <li>Має погану пам'ять;</li>
-      <li>Розуміє, що програмувати/писати сайти/тощо можна й самому навчитись, <br>
-	  але занадто слабка воля, щоб змусити себе, тому відштовхується від того, що задають в університеті;</li>
-	  <!-- звідси починається те, що додав у лаб 2 -->
-	  <li><em>Досвід роботи відсутній.</em></li>
-    </ul>
-    <hr>
-	<h3 class="classnyi_zagolovok">Мої захоплення:</h3>
-	<ul>
-	  <li>Музика(і слухати, і виконувати. Схильний до великої кількості жанрів);</li>
-	  <li>Фільми, мультфільми, аніме;</li>
-	  <li>Книги (у минулому ;-;);</li>
-	  <li>Комп'ютерні та настільні ігри;</li>
-	  <li>Малювання (на жаль, не самому малювати, а споглядати чужі роботи);</li>
-	  <li>Спілкування он-лайн (як у чаті, так і на "войсі");</li>
-	  <li>меми.</li>
-	</ul>
-  <hr>
-	<h3>Мої вміння та навички:</h3>
-	<table>
-		<tr>
-			<td width="100">HTML</td><td width="100" style="color:#736358">&#9733;&#9734;&#9734;&#9734;&#9734;</td>
-			<td width="100">C</td><td style="color:#736358">&#9734;&#9734;&#9734;&#9734;&#9734;</td>
-		</tr>
-		<tr>
-			<td width="100">CSS</td><td style="color:#736358">&#9734;&#9734;&#9734;&#9734;&#9734;</td>
-			<td width="100">C++</td><td style="color:#736358">&#9734;&#9734;&#9734;&#9734;&#9734;</td>
-		</tr>
-		<tr>
-			<td width="100">JavaScript</td><td style="color:#736358">&#9734;&#9734;&#9734;&#9734;&#9734;</td>
-			<td width="100">Python</td><td style="color:#736358">&#9733;&#9734;&#9734;&#9734;&#9734;</td>
-		</tr>
-		<tr>
-			<td width="100">Скрипка</td><td width="100" style="color:#736358">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
-			<td width="100">Композиція</td><td width="100" style="color:#736358">&#9733;&#9734;&#9734;&#9734;&#9734;</td>
-		</tr>
-		<tr>
-			<td width="100">Фортепіано</td><td width="100" style="color:#736358">&#9733;&#9733;&#9734;&#9734;&#9734;</td>
-			<td width="100">Малювання</td><td width="100" style="color:#736358">&#9733;&#9734;&#9734;&#9734;&#9734;</td>
-		</tr>
-		<tr>
-			<td width="100">Файтинги</td><td width="100" style="color:#736358">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
-			<td width="100">Стратегії</td><td width="100" style="color:#736358">&#9733;&#9733;&#9734;&#9734;&#9734;</td>
-		</tr>
-	</table>
-  </div>
+    <nav>
+      <div class="navbox">
+        <div class="navbox"><img src="icon.png" height=40px>
+        <div class="classnyi_zagolovok">
+          Сайт Олександра Макаревича 2.0
+        </div></div>
+        <div class="navtons">
+          <button><a href="index.html"> Головна </a></button>
+          <button><a href="responsive-flex.html"> Файтинги</a> </button>
+          <button><a href="gallery.html"> Галерея</a> </button>
+          <button><a href="contacts.html"> Контакти</a> </button>
+          <button><a href="index old.html"> Старий сайт</a> </button>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <hr class="dots">
+      <div class="rowbox">
+        <div class="">
+          <img src="pic0.jpg" width="250px">
+        </div>
+        <div style="margin-left:20px">
+          <h3>Про себе:</h3>
+          <ul marker="square">
+            <li>Студент НАУ ФККПІ групи БІ-242;</li>
+            <li>Закінчив 11 классів зі срібною медаллю;</li>
+            <li>Закінчив на відмінно музичну школу за спеціальністю "скрипка";</li>
+            <li>Взагалі хотів навчатись за спеціальністю "Архітектура";</li>
+            <li>Схильний до творчості;</li>
+            <li>Має погану пам'ять;</li>
+            <li>Досвід роботи відсутній;</li>
+        </div>
+      </div>
+      <hr class="dots">
+      <div class="rowbox">
+        <div>
+          <h3>Мої захоплення:</h3>
+        	<ul>
+        	  <li>Музика(і слухати, і виконувати.<br>Схильний до великої кількості жанрів);</li>
+        	  <li>Фільми, мультфільми, аніме;</li>
+        	  <li>Книги (у минулому ;-;);</li>
+        	  <li>Комп'ютерні та настільні ігри;</li>
+        	  <li>Малювання (на жаль, не самому малювати, а споглядати чужі роботи);</li>
+        	  <li>Спілкування он-лайн (як у чаті, так і на "войсі");</li>
+        	  <li>меми.</li>
+        	</ul>
+        </div>
+        <div>
+          <h3>Мої навички:</h3>
+          <table style="padding-top: 20px">
+        		<tr>
+        			<td width="100">HTML</td><td width="100" style="color:#736358">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+        			<td width="100">C</td><td style="color:#736358">&#9733;&#9734;&#9734;&#9734;&#9734;</td>
+        		</tr>
+        		<tr>
+        			<td width="100">CSS</td><td style="color:#736358">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+        			<td width="100">C++</td><td style="color:#736358">&#9734;&#9734;&#9734;&#9734;&#9734;</td>
+        		</tr>
+        		<tr>
+        			<td width="100">JavaScript</td><td style="color:#736358">&#9734;&#9734;&#9734;&#9734;&#9734;</td>
+        			<td width="100">Python</td><td style="color:#736358">&#9733;&#9734;&#9734;&#9734;&#9734;</td>
+        		</tr>
+        		<tr>
+        			<td width="100">Скрипка</td><td width="100" style="color:#736358">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+        			<td width="100">Композиція</td><td width="100" style="color:#736358">&#9733;&#9734;&#9734;&#9734;&#9734;</td>
+        		</tr>
+        		<tr>
+        			<td width="100">Фортепіано</td><td width="100" style="color:#736358">&#9733;&#9733;&#9734;&#9734;&#9734;</td>
+        			<td width="100">Малювання</td><td width="100" style="color:#736358">&#9733;&#9734;&#9734;&#9734;&#9734;</td>
+        		</tr>
+        		<tr>
+        			<td width="100">Файтинги</td><td width="100" style="color:#736358">&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+        			<td width="100">Стратегії</td><td width="100" style="color:#736358">&#9733;&#9733;&#9734;&#9734;&#9734;</td>
+        		</tr>
+        	</table>
+        </div>
+      </div>
+      <hr class="dots">
+      <center><button><a href="parallax.html"> Паралакс тест!</a></button></center>
+      <hr class="dots">
+    </div>
   </body>
 </html>

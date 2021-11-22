@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About me 2.0</title>
+    <link rel="stylesheet" href="master.css"
+    href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap">
+    <link rel="icon" href="icon.png">
+    <style type="text/css" media="all">
+      .parallax1, .parallax2, .parallax3, .parallax4 {
+      height: 1000px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      .parallax1 {
+        background-image: url(par1.jpg);
+      }
+      .parallax2 {
+        background-image: url(par2.jpg);
+      }
+      .parallax3 {
+        background-image: url(par3.jpg);
+      }
+      .parallax4 {
+        background-image: url(par4.jpg);
+      }
+      .box {
+        width: 100px;
+        background-color: orange;
+        text-align: center;
+        padding: 50px;
+      }
+      .btw {
+        background-color: white;
+        width: 100%;
+        height: 50px;
+      }
+      @media only screen and (max-device-width: 1366px) {
+        .parallax1, .parallax2, .parallax3, .parallax4 {
+          background-attachment: scroll;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navbox">
+        <div class="navbox"><img src="icon.png" height=40px>
+        <div class="classnyi_zagolovok">
+          Сайт Олександра Макаревича 2.0
+        </div></div>
+        <div class="navtons">
+          <button><a href="index.html"> Головна </a></button>
+          <button><a href="responsive-flex.html"> Файтинги</a> </button>
+          <button><a href="gallery.html"> Галерея</a> </button>
+          <button><a href="contacts.html"> Контакти</a> </button>
+          <button><a href="index old.html"> Старий сайт</a> </button>
+        </div>
+      </div>
+    </nav>
+    <div class="parallax1">
+      <div class="box">
+        Parallax 1
+      </div>
+    </div>
+    <div class="btw">
+
+    </div>
+    <div class="parallax2">
+      <div class="box">
+        Parallax 2
+      </div>
+    </div>
+    <div class="btw">
+
+    </div>
+    <div class="parallax3">
+      <div class="box">
+        Parallax 3
+      </div>
+    </div>
+    <div class="btw">
+
+    </div>
+    <div class="parallax4">
+      <div class="box">
+        Parallax 4
+      </div>
+    </div>
+  </body>
+</html>

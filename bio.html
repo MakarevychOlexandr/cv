@@ -1,29 +1,43 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About me</title>
-    <link rel="stylesheet" href="master.css">
+    <title>About me 2.0</title>
+    <link rel="stylesheet" href="master.css"
+    href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap">
+    <link rel="icon" href="icon.png">
+    <style type="text/css" media="all">
+      h3 {
+        margin-top: 0px;
+        font-style: italic;
+        text-decoration: underline wavy #b00b69;
+      }
+    </style>
   </head>
   <body>
-    <div align="center">
-    <table>
-      <tr>
-        <td> <button><a href="index.html"> Головна </a></button></td>
-        <td> <button><a href="bio.html">Автобіографія</a></button></td>
-        <td> <button><a href=gallery.html> Галерея</a> </button></td>
-        <td> <button><a href="contacts.html"> Контакти</a> </button></td>
-      </tr>
-      <tr>
-        <td colspan="10">Приємного перегляду!</td>
-      </tr>
-      <tr>
-        <td colspan="10"><iframe width="500" height="300" src="bio.webm" frameborder="0" autoplay="autoplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-      </tr>
-
-        <!--<td><video autoplay="autoplay" controls="controls" height="300" width="500"><source src="bio.webm" type="video/webm"></video></td>-->
-
-    </table>
-  </div>
+    <nav>
+      <div class="navbox">
+        <div class="navbox"><img src="icon.png" height=40px>
+        <div class="classnyi_zagolovok">
+          Сайт Олександра Макаревича 2.0
+        </div></div>
+        <div class="navtons">
+          <button><a href="index.html"> Головна </a></button>
+          <button><a href="bio.html">Автобіографія</a></button>
+          <button><a href="gallery.html"> Галерея</a> </button>
+          <button><a href="contacts.html"> Контакти</a> </button>
+          <button><a href="responsive-flex.html"> Файтинги</a> </button>
+          <button><a href="index old.html"> Старий сайт</a> </button>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <hr class="dots">
+      <center>
+        <h3>Приємного перегляду!</h3>
+        <iframe width="500" height="300" src="bio.webm" frameborder="0" autoplay="autoplay" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr class="dots">
+      </center>
+    </div>
   </body>
 </html>

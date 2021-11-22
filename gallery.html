@@ -2,39 +2,58 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About me</title>
-    <link rel="stylesheet" href="master.css">
+    <title>About me 2.0</title>
+    <link rel="stylesheet" href="master.css"
+    href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap">
+    <link rel="icon" href="icon.png">
+    <style type="text/css" media="all">
+      h3 {
+        margin-top: 0px;
+        font-style: italic;
+        text-decoration: underline wavy #b00b69;
+      }
+      .photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
-    <div>
-    <table>
-      <tr>
-        <td> <button><a href="index.html"> Головна </a></button></td>
-        <td> <button><a href="bio.html">Автобіографія</a></button></td>
-        <td> <button><a href=gallery.html> Галерея</a> </button></td>
-        <td> <button><a href="contacts.html"> Контакти</a> </button></td>
-        <td width="100"></td>
-        <td width="100"></td>
-        <td width="100"></td>
-      </tr>
-    </table>
-      (Три фотографії, бо дуже рідко фотографуюсь >Δ<)
-    <table>
-      <tr>
-        <td ><img src="pic1.jpg" height="450" width="260"></td>
-        <td width="50"></td>
-        <td><img src="pic2.jpg" width="340" height="450"></td>
-        <td width="50"></td>
-        <td><img src="pic3.jpg" width="340" height="450"></td>
-      </tr>
-      <tr>
-        <td width="260">Фото з 11-го класу, яке потай зняли дівчата</td>
-        <td width="50"></td>
-        <td width="340">ComicCon2021. Справа - Майстер Роші із мультфільму DragonBall</td>
-        <td width="50"></td>
-        <td width="340">Фото у ліфті. В мене справді майже немає фотографій</td>
-      </tr>
-    </table>
+    <nav>
+      <div class="navbox">
+        <div class="navbox"><img src="icon.png" height=40px>
+        <div class="classnyi_zagolovok">
+          Сайт Олександра Макаревича 2.0
+        </div></div>
+        <div class="navtons">
+          <button><a href="index.html"> Головна </a></button>
+          <button><a href="responsive-flex.html"> Файтинги</a> </button>
+          <button><a href="gallery.html"> Галерея</a> </button>
+          <button><a href="contacts.html"> Контакти</a> </button>
+          <button><a href="index old.html"> Старий сайт</a> </button>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <hr class="dots">
+      (Три фотографії, бо дуже рідко фотографуюсь >Δ<)<br>
+      <div class="rowbox">
+        <div class="photo">
+          <img src="pic1.jpg" height="450">
+          Фото з 11-го класу, яке потай зняли дівчата
+        </div>
+        <div class="photo">
+          <img src="pic2.jpg" height="450">
+          ComicCon2021. Справа - Майстер Роші із мультфільму DragonBall
+        </div>
+        <div class="photo">
+          <img src="pic3.jpg" height="450">
+          Фото у ліфті. В мене справді майже немає фотографій
+        </div>
+      </div>
+      <hr class="dots">
   </div>
-  </body>
+</body>
 </html>

@@ -2,49 +2,59 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About me</title>
-    <link rel="stylesheet" href="master.css">
-    <style>
-      body {
-        color: #113CFC;
+    <title>About me 2.0</title>
+    <link rel="stylesheet" href="master.css"
+    href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap">
+    <link rel="icon" href="icon.png">
+    <style type="text/css" media="all">
+      h3 {
+        margin-top: 0px;
+        font-style: italic;
+        text-decoration: underline wavy #b00b69;
       }
     </style>
   </head>
   <body>
-    <div>
-    <table>
-      <tr>
-        <td> <button><a href="index.html"> Головна </a></button></td>
-        <td> <button><a href="bio.html">Автобіографія</a></button></td>
-        <td> <button><a href="gallery.html"> Галерея</a> </button></td>
-        <td> <button><a href="contacts.html"> Контакти</a> </button></td>
-        <td width="100"></td>
-        <td width="100"></td>
-        <td width="100"></td>
-      </tr>
-    </table>
-    <u>Тут ви можете залишити свої контакти для зв'язку зі мною!</u>
-    <form name="conf" id="conf" action="mailto:6887066@stud.nau.edu.ua" method="post" enctype="text/plain">
-      <!--форма не працює, доробити-->
-		<table>
-			<tr>
-				<td width=200><label for="username">Ваше ім'я: </label></td>
-				<td><input name="username" form="conf"></td>
-			</tr>
-			<tr>
-				<td><label for="email">Ваша електронна пошта: </label></td>
-				<td><input type="email" name="email" form="conf"></td>
-			</tr>
-			<tr>
-				<td style="color:#091353"><label for="message" >Ваше повідомлення: </label></td>
-			</tr>
-			<tr>
-				<td colspan="3"><textarea rows="8" cols="50" name="message" form="conf"></textarea>
-			</tr>
-			</tr>
-				<td><input type="submit" form="conf">  <input type="reset"></td>
-		</table>
-	</form>
-</div>
+    <nav>
+      <div class="navbox">
+        <div class="navbox"><img src="icon.png" height=40px>
+        <div class="classnyi_zagolovok">
+          Сайт Олександра Макаревича 2.0
+        </div></div>
+        <div class="navtons">
+          <button><a href="index.html"> Головна </a></button>
+          <button><a href="responsive-flex.html"> Файтинги</a> </button>
+          <button><a href="gallery.html"> Галерея</a> </button>
+          <button><a href="contacts.html"> Контакти</a> </button>
+          <button><a href="index old.html"> Старий сайт</a> </button>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <hr class="dots">
+      <h3>Тут ви можете залишити свої контакти для зв'язку зі мною!</h3>
+      <div>
+        <form name="conf" id="conf" action="mailto:6887066@stud.nau.edu.ua" method="post" enctype="text/plain">
+    		<table>
+    			<tr>
+    				<td width=200><label for="username">Ваше ім'я: </label></td>
+    				<td><input name="username" form="conf"></td>
+    			</tr>
+    			<tr>
+    				<td><label for="email">Ваша електронна пошта: </label></td>
+    				<td><input type="email" name="email" form="conf"></td>
+    			</tr>
+    			<tr>
+    				<td><label for="message">Ваше повідомлення: </label></td>
+    			</tr>
+    			<tr>
+    				<td colspan="3"><textarea rows="8" cols="50" name="message" form="conf"></textarea>
+    			</tr>
+    				<td><input type="submit" form="conf">  <input type="reset"></td>
+    		</table>
+    	  </form>
+      </div>
+      <hr class="dots">
+    </div>
   </body>
 </html>
