@@ -12,6 +12,11 @@ body {
   background-color: #FFF1AF;
   color: #7E370C;
 }
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 h3 {
   font-size: 100%;
   font-weight: normal;
@@ -28,6 +33,12 @@ h3 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.container-md {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
 @media (max-width:320px) {
   .carousel {
     width: 100%;
@@ -38,7 +49,7 @@ h3 {
   }
 }
 footer {
-  height: 100px;
+  height: 15%;
   background-color: black;
   text-align: center;
   padding: 50px;
